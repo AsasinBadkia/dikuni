@@ -1,0 +1,180 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ul li {
+    list-style: none;
+ 
+    margin-left: 30px;
+    font-size: 20px;
+}
+.bg1 {
+    background-color:#F1F1F1;
+    ;
+}
+.menu {
+    display: flex;
+}
+h1::after  {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    left: 295px;
+    border-radius: 100%;
+    background-color: orange;
+}
+.bg1 h3 {
+    width: 300px;
+    font-size: 30px;
+}
+.bg1 p {
+    width: 470px;
+}
+.bg1 img {
+    width: 400px;
+    height: 500px;
+}
+
+.textbg1 {
+    padding-top: 100px;
+    vertical-align: top;
+}
+.bg2 h3 {
+    text-transform: uppercase;
+}
+.bg2 p {
+    width: 300px;
+}
+.bg2{
+    padding-left: 230px;
+    display: flex;
+}
+.df {
+    margin-left: 200px;
+    display: flex;
+}
+.item {
+    margin-left: 30px;
+    margin-top: 70px;
+}
+.bg3 {
+    background-color: #F1F1F1;
+}
+.bg3 img {
+    margin-left: 200px;
+}
+.bg3 h3 {
+    padding: 80px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.bg3 a {
+    color: black;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+}
+.bg4 {
+    background-color: #F1F1F1;
+}
+.bg4 img {
+    padding-left: 200px;
+}
+.bg4 a {
+    color: black;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+}
+.bg5 a {
+    color: black;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+}
+.bg5 {
+    background-color: #F1F1F1;
+}
+.bg5 img {
+    padding-left: 200px;
+}
+.bg6 button {
+    width: 130px;
+    height: 30px;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+}
+.bg6 p {
+    margin-left: 555px;
+    width: 230px;
+}
+.bg6 {
+    text-align: center;
+}
+.bg6 img {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.bg6 h5 {
+    color: gray;
+}
+@media (max-width:500px) {
+    .bg1 ul li {
+        display: none;
+    }
+    .bg1 h1::after{
+    content: "";
+    display: block;   
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    left: 185px;
+    border-radius: 100%;
+    background-color: orange;
+    }
+    .df {
+        margin-left: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bg1 p {
+        width: 250px;
+    }
+    .bg2 {
+        padding-left: 100px;
+        flex-direction: column;
+    }
+    .bg3 img  {
+        margin-left: 50px;
+        width: 360px;
+        height: 200px;
+    }
+    .bg4 img {
+        padding-left: 50px;
+        width: 360px;
+        height: 200px;
+    }
+    .bg5 img {
+        padding-left: 50px;
+        width: 360px;
+        height: 200px;
+    }
+    .bg6 h3 {
+        font-size: 35px;
+    }
+    .bg6 p {
+        margin-left: 120px;
+        font-size: 19px;
+    }
+    .bg6 img {
+        width: 40px;
+        height: 40px;
+    }
+}
